@@ -45,7 +45,7 @@ public class Block {
             nonce ++;
             hash = calculateHash();
         }
-        System.out.println("挖矿后区块更改的HASH: "+ hash);
+        System.out.println("工作量证明成功，特殊数字: "+ nonce);
         System.out.println("Block Mined!!! : " + hash);
     }
 
